@@ -16,7 +16,8 @@ This Privacy Policy explains how **Fitcore** ("the App", "we", "us"), published 
 nutrition tracking and AI fitness assistant app for a general audience. **It is not directed
 to children under 16** (or the equivalent minimum age in your country).
 
-By creating an account and using the App you agree to this Policy.
+By entering the App (signing in or creating an account) you accept this Policy and our
+[Terms of Use](terms). We keep a record of this acceptance (see section 2.14).
 
 ---
 
@@ -41,6 +42,55 @@ By creating an account and using the App you agree to this Policy.
   **no advertising, analytics or crash-reporting SDKs**.
 - Data exchanged between the App and our server is protected **in transit by encryption
   (HTTPS/TLS)**, and passwords are stored **hashed**.
+- We keep a **record that you accepted** this Policy and the Terms of Use (date, document
+  versions, app version, language). It is deleted with your account.
+
+### Краткое содержание (на русском)
+
+- Чтобы пользоваться приложением, вы создаёте аккаунт по **email и паролю** или входите через
+  **Google**.
+- Наш сервер хранит ваш **аккаунт и профиль** (email, имя, пол, дату рождения/возраст, рост, вес,
+  уровень активности и опыта, цель) и статус подписки. Сервером управляем мы сами.
+- **Тренировки, дневник питания, свои упражнения, программы и переписка с ИИ остаются на вашем
+  устройстве**: на наш сервер они не загружаются и между устройствами не синхронизируются.
+- Функции **сканирования еды**, **ИИ-ассистента** и **генерации тренировок** отправляют фото,
+  сообщения и перечисленные данные профиля через наш сервер в **Google Gemini API**.
+- **Premium** оплачивается через **Google Play / App Store**, статус подписки подтверждает
+  **RevenueCat**.
+- Письма подтверждения почты отправляются через **Resend**.
+- Чтобы бесплатный лимит сканов был справедливым, приложение отправляет **идентификатор
+  устройства**; сервер хранит только его хэш.
+- Мы **не продаём** ваши данные и **не показываем рекламу**; в приложении нет рекламных,
+  аналитических и crash-reporting SDK.
+- Данные между приложением и сервером защищены **шифрованием (HTTPS/TLS)**, пароли хранятся в
+  **хэшированном** виде.
+- Мы храним **запись о том, что вы приняли** эту Политику и Условия использования (дата, версии
+  документов, версия приложения, язык). Она удаляется вместе с аккаунтом.
+
+Полный текст — на английском; при расхождениях приоритет у английской версии.
+
+### Stručný přehled (česky)
+
+- K používání aplikace si vytvoříte účet pomocí **e-mailu a hesla** nebo se přihlásíte přes
+  **Google**.
+- Náš server ukládá váš **účet a profil** (e-mail, jméno, pohlaví, datum narození/věk, výšku, váhu,
+  úroveň aktivity a zkušeností, cíl) a stav předplatného. Server provozujeme sami.
+- **Tréninky, jídelníček, vlastní cviky, programy a historie chatu s AI zůstávají jen ve vašem
+  zařízení**: na náš server se nenahrávají a mezi zařízeními se nesynchronizují.
+- Funkce **skenování jídla**, **AI asistent** a **generování tréninků** posílají fotky, zprávy a
+  uvedené údaje z profilu přes náš server do **Google Gemini API**.
+- **Premium** se platí přes **Google Play / App Store**, stav předplatného potvrzuje **RevenueCat**.
+- Potvrzovací e-maily se odesílají přes **Resend**.
+- Aby byl bezplatný limit skenů spravedlivý, aplikace posílá **identifikátor zařízení**; server
+  ukládá jen jeho hash.
+- Vaše údaje **neprodáváme** a **nezobrazujeme reklamy**; aplikace neobsahuje reklamní, analytické
+  ani crash-reportingové SDK.
+- Data mezi aplikací a serverem jsou chráněna **šifrováním (HTTPS/TLS)**, hesla se ukládají
+  **zahashovaná**.
+- Uchováváme **záznam o tom, že jste přijali** tyto Zásady a Podmínky používání (datum, verze
+  dokumentů, verze aplikace, jazyk). Smaže se spolu s účtem.
+
+Úplné znění je v angličtině; při rozporech má přednost anglická verze.
 
 ---
 
@@ -61,10 +111,13 @@ and last name**, **gender**, **date of birth / age**, **height**, **weight**, **
 percentage** (if you enter it), **activity level**, **experience level** and **nutrition goal**;
 your **Premium status and its expiry date**; and **usage counters** (how many AI scans, chat
 messages and workout generations you have used in the current period, and when that period
-started).
+started). We also keep a record of your acceptance of these documents (section 2.14).
 
 Body measurements and goals may be considered **health data**. We use them only to provide the
 App's features (see sections 3 and 4).
+
+Access to this data is limited to the developer (ZackysStudio), who may view it in an
+administration panel to operate the service and to provide support.
 
 ### 2.3 Data stored only on your device
 
@@ -76,7 +129,9 @@ and it is lost if you delete the App's data or uninstall the App.
 
 Depending on your device settings, **Android may include the App's data in your Google backup**
 and restore it when you reinstall the App. That backup is controlled by Google and your device
-settings, not by us.
+settings, not by us. Your sign-in token is the exception: it is kept in the device's encrypted
+secure storage and is excluded from Android backups, so after reinstalling the App or moving to
+a new phone you sign in again (your local data may be restored, your sign-in is not).
 
 If you sign in with a different account on the same device, the previous account's local data is
 set aside on the device and restored when you sign in to that account again. Deleting your
@@ -160,6 +215,18 @@ The App can schedule reminders about workouts and meals at times you choose. The
 are scheduled **entirely on your device** using the device's own notification system; no
 reminder content or schedule is sent to us.
 
+### 2.14 Record of your acceptance of these documents
+
+You accept this Policy and the Terms of Use by entering the App: signing in or creating an
+account. When you register you also tick a box confirming it. So that we can show that you
+accepted them, the App sends our server a record when you enter it: your account, the **versions**
+of this Policy and of the Terms (the "Last updated" date of each document), the **date and time**,
+**how** you accepted (the checkbox at registration, or by entering the App), the **app version**
+and the **interface language**. This record does not include your IP address.
+
+We record your acceptance again when we publish a new version of these documents. The record is
+kept for as long as your account exists and is **deleted when you delete your account**.
+
 ---
 
 ## 3. How we use information
@@ -171,6 +238,7 @@ We (and our providers, for their own described purposes) use the information to:
 - power the photo-based food recognition feature, the AI assistant and AI workout generation;
 - process and validate your Premium subscription;
 - send you account confirmation emails;
+- keep proof that you accepted this Policy and the Terms of Use;
 - apply usage limits, keep the service secure, prevent abuse and provide customer support.
 
 We do **not** sell your personal information, and we do **not** use your data for
@@ -185,7 +253,7 @@ advertising.
   Google's Gemini API. You give it when you accept this Policy and use those features, and you
   can withdraw it at any time by stopping to use the features or by deleting your account.
 - **Legitimate interests** — to keep the service secure, apply usage limits and prevent abuse
-  (technical logs, device identifier).
+  (technical logs, device identifier), and to keep proof that you accepted these documents.
 - **Legal obligation** — where we must keep or disclose information by law.
 
 ---
@@ -235,15 +303,16 @@ immediate. You can also request deletion by email — see our
 [Data Deletion page](delete) or write to **support.zackysstudio@gmail.com**.
 
 When your account is deleted, we remove: your sign-in account and sessions, your profile and
-subscription status, your usage counters, the request-log entries linked to your account, and we
-ask RevenueCat to delete your subscriber record. The App's data on your device is erased too.
+subscription status, your usage counters, the request-log entries linked to your account, your
+record of acceptance of these documents, and we ask RevenueCat to delete your subscriber record.
+The App's data on your device is erased too.
 
 A few things remain, as described on the [Data Deletion page](delete): a short **record that the
 deletion happened** (date, technical account ID, masked email and IP address) kept for security
 and accountability; the **device scan counter** (linked to a hash of the device, not to your
 account); records that app stores and payment providers must keep by law; and data held by the
-providers named above under their own policies. Deleted data may also remain for a short time in
-routine technical backups of our server until they are overwritten.
+providers named above under their own policies. Deleted data may also remain in the routine
+database backups of our server, which we keep for **14 days** and then overwrite.
 
 Deleting your account does **not** cancel an active Google Play / App Store subscription — cancel
 it separately in your store account.
@@ -290,7 +359,9 @@ program or changing your diet.
 ## 12. Changes to this Policy
 
 We may update this Policy from time to time. Material changes will be reflected by updating
-the "Last updated" date above and, where appropriate, through an in-app notice.
+the "Last updated" date above and, where appropriate, through an in-app notice. When we publish a
+new version of this Policy or of the Terms, the App records your acceptance of the new version
+the next time you sign in.
 
 ---
 
