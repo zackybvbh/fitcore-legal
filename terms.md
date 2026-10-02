@@ -5,15 +5,11 @@ permalink: /terms
 
 # Fitcore — Terms of Use / Условия использования
 
-**Last updated: September 29, 2026**
+**Last updated: October 2, 2026**
 
 Developer / Разработчик: **ZackysStudio**
 App / Приложение: **Fitcore — workout & nutrition tracker**
 Contact / Контакты: **support.zackysstudio@gmail.com**
-
-> **Before publishing:** confirm the jurisdiction in Section 13 is correct for you. This
-> document is **not legal advice**; have it reviewed by a qualified professional before you
-> rely on it.
 
 These Terms of Use ("Terms") govern your use of the mobile application **Fitcore** ("the
 App"), provided by **ZackysStudio** ("we", "us"). By downloading, installing, or using the
@@ -143,10 +139,10 @@ your statutory consumer rights.
 ## 11. Termination
 
 These Terms apply while you use the App. We may suspend or terminate your access if you
-breach them. You may stop using the App at any time by deleting your account (see the
-[Data Deletion page](delete)) or uninstalling the App. Sections that by their nature should
-survive termination (such as ownership, disclaimers, and limitation of liability) will
-survive.
+breach them. You may stop using the App at any time by deleting your account in the App (Profile →
+Delete account; see also the [Data Deletion page](delete)) or by uninstalling the App. 
+Sections that by their nature should survive termination (such as ownership, disclaimers, 
+and limitation of liability) will survive.
 
 ---
 
