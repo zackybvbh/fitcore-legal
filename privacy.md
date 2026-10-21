@@ -5,7 +5,7 @@ permalink: /privacy
 
 # Fitcore — Privacy Policy / Политика конфиденциальности
 
-**Last updated: October 2, 2026**
+**Last updated: October 21, 2026**
 
 Developer / Разработчик: **ZackysStudio**
 App / Приложение: **Fitcore — workout & nutrition tracker**
@@ -35,7 +35,7 @@ By entering the App (signing in or creating an account) you accept this Policy a
   **Google's Gemini API**.
 - If you purchase **Premium**, it is billed through **Google Play / the App Store**, and the
   subscription status is confirmed through **RevenueCat**.
-- Account confirmation emails are sent through **Resend**.
+- Account emails (email confirmation and password reset) are sent through **Resend**.
 - To keep the free AI-scan limit fair, the App sends a **device identifier** to our server,
   which stores only a one-way hash of it.
 - We do **not** sell your personal information, we do **not** show ads, and the App contains
@@ -44,6 +44,8 @@ By entering the App (signing in or creating an account) you accept this Policy a
   (HTTPS/TLS)**, and passwords are stored **hashed**.
 - We keep a **record that you accepted** this Policy and the Terms of Use (date, document
   versions, app version, language). It is deleted with your account.
+- If you **report an AI answer** with the flag button, the report (the answer, your question and
+  your comment) is stored on our server until you delete your account.
 
 ### Краткое содержание (на русском)
 
@@ -57,7 +59,7 @@ By entering the App (signing in or creating an account) you accept this Policy a
   сообщения и перечисленные данные профиля через наш сервер в **Google Gemini API**.
 - **Premium** оплачивается через **Google Play / App Store**, статус подписки подтверждает
   **RevenueCat**.
-- Письма подтверждения почты отправляются через **Resend**.
+- Письма подтверждения почты и сброса пароля отправляются через **Resend**.
 - Чтобы бесплатный лимит сканов был справедливым, приложение отправляет **идентификатор
   устройства**; сервер хранит только его хэш.
 - Мы **не продаём** ваши данные и **не показываем рекламу**; в приложении нет рекламных,
@@ -66,6 +68,8 @@ By entering the App (signing in or creating an account) you accept this Policy a
   **хэшированном** виде.
 - Мы храним **запись о том, что вы приняли** эту Политику и Условия использования (дата, версии
   документов, версия приложения, язык). Она удаляется вместе с аккаунтом.
+- Если вы **пожалуетесь на ответ ИИ** (кнопка-флажок), жалоба (ответ, ваш вопрос и комментарий)
+  хранится на нашем сервере, пока вы не удалите аккаунт.
 
 Полный текст — на английском; при расхождениях приоритет у английской версии.
 
@@ -80,7 +84,7 @@ By entering the App (signing in or creating an account) you accept this Policy a
 - Funkce **skenování jídla**, **AI asistent** a **generování tréninků** posílají fotky, zprávy a
   uvedené údaje z profilu přes náš server do **Google Gemini API**.
 - **Premium** se platí přes **Google Play / App Store**, stav předplatného potvrzuje **RevenueCat**.
-- Potvrzovací e-maily se odesílají přes **Resend**.
+- Potvrzovací e-maily a e-maily pro obnovení hesla se odesílají přes **Resend**.
 - Aby byl bezplatný limit skenů spravedlivý, aplikace posílá **identifikátor zařízení**; server
   ukládá jen jeho hash.
 - Vaše údaje **neprodáváme** a **nezobrazujeme reklamy**; aplikace neobsahuje reklamní, analytické
@@ -89,6 +93,8 @@ By entering the App (signing in or creating an account) you accept this Policy a
   **zahashovaná**.
 - Uchováváme **záznam o tom, že jste přijali** tyto Zásady a Podmínky používání (datum, verze
   dokumentů, verze aplikace, jazyk). Smaže se spolu s účtem.
+- Pokud **nahlásíte odpověď AI** tlačítkem s vlajkou, hlášení (odpověď, váš dotaz a komentář) se
+  uloží na našem serveru, dokud účet nesmažete.
 
 Úplné znění je v angličtině; při rozporech má přednost anglická verze.
 
@@ -184,7 +190,8 @@ details** — those are handled by the app store. See: https://www.revenuecat.co
 ### 2.9 Emails (Resend)
 
 When you register, we send you a confirmation email (and, if you ask, a new confirmation link).
-These emails are sent through **Resend**, which processes your email address and the message to
+If you use "Forgot password?", we send you an email with a link to set a new password. These
+emails are sent through **Resend**, which processes your email address and the message to
 deliver it. We send **no marketing emails**. See: https://resend.com/legal/privacy-policy
 
 ### 2.10 Device identifier
@@ -227,6 +234,17 @@ and the **interface language**. This record does not include your IP address.
 We record your acceptance again when we publish a new version of these documents. The record is
 kept for as long as your account exists and is **deleted when you delete your account**.
 
+### 2.15 Reports about AI answers
+
+If you tap the flag next to an AI answer (in the AI assistant chat, the workout generator or the
+food-scan result) and send a report, we receive: the **text of that answer**, your **preceding
+question or description** (if there was one), the **reason** you selected, your optional
+**comment**, your **interface language**, the **app version** and your **account ID**. We use
+reports only to review and improve the safety of AI answers and to meet app store requirements.
+Reports are visible to the developer and are not shared with other users or providers. You can
+send up to 20 reports per day. Please do not include information in a report that you do not want
+us to see. Reports are kept until you delete your account and are **deleted together with it**.
+
 ---
 
 ## 3. How we use information
@@ -237,8 +255,9 @@ We (and our providers, for their own described purposes) use the information to:
 - store your profile and calculate personalized targets;
 - power the photo-based food recognition feature, the AI assistant and AI workout generation;
 - process and validate your Premium subscription;
-- send you account confirmation emails;
+- send you account emails (email confirmation and password reset);
 - keep proof that you accepted this Policy and the Terms of Use;
+- review reports you send about AI answers and improve their safety;
 - apply usage limits, keep the service secure, prevent abuse and provide customer support.
 
 We do **not** sell your personal information, and we do **not** use your data for
@@ -253,7 +272,8 @@ advertising.
   Google's Gemini API. You give it when you accept this Policy and use those features, and you
   can withdraw it at any time by stopping to use the features or by deleting your account.
 - **Legitimate interests** — to keep the service secure, apply usage limits and prevent abuse
-  (technical logs, device identifier), and to keep proof that you accepted these documents.
+  (technical logs, device identifier), to review reports about AI answers, and to keep proof that you
+  accepted these documents.
 - **Legal obligation** — where we must keep or disclose information by law.
 
 ---
@@ -263,9 +283,8 @@ advertising.
 - **Internet** — to sign in, sync your profile and use the online features described above.
 - **Camera and photo library** — to take or select a photo of your food for the scanning
   feature.
-- **Notifications** — to show you the reminders you schedule.
-- **Exact alarms** (`SCHEDULE_EXACT_ALARM` on Android) — so reminders you schedule fire at the
-  exact time you chose, including while the device is idle.
+- **Notifications** — to show you the reminders you schedule (the App asks for this permission
+  when you turn on a reminder). Reminders may arrive a few minutes after the chosen time.
 - **Boot completed** — so your scheduled reminders are re-armed after your device restarts.
 - **Vibration** — for haptic feedback.
 
@@ -281,7 +300,7 @@ We share data only with the providers below, and only as needed to provide the A
 | **Google (Sign-In)** | Your Google account details if you choose Google sign-in | Sign-in |
 | **Google (Fonts)** | Your IP address | Download app fonts |
 | **RevenueCat** and **Google Play / App Store** | Purchase token, account ID, subscription status | Premium subscriptions |
-| **Resend** | Your email address and the confirmation message | Account emails |
+| **Resend** | Your email address and the account message (confirmation, password reset) | Account emails |
 | **Cloudflare** | Requests to our server, including IP address | Delivering and protecting our server |
 | **Open Food Facts**, **USDA FoodData Central** | Food search text and IP address (directly from your device) | Nutrition values |
 
@@ -304,7 +323,8 @@ immediate. You can also request deletion by email — see our
 
 When your account is deleted, we remove: your sign-in account and sessions, your profile and
 subscription status, your usage counters, the request-log entries linked to your account, your
-record of acceptance of these documents, and we ask RevenueCat to delete your subscriber record.
+record of acceptance of these documents, your reports about AI answers, and we ask RevenueCat to
+delete your subscriber record.
 The App's data on your device is erased too.
 
 A few things remain, as described on the [Data Deletion page](delete): a short **record that the
@@ -342,7 +362,8 @@ frameworks (for example, standard contractual clauses or the EU–US Data Privac
 
 The App is intended for a **general audience and is not directed to children** under the age
 of 16 (or the applicable age in your jurisdiction). We do not knowingly collect personal
-information from children. If you believe a child has provided us personal information,
+information from children. The App does not let you enter a date of birth that makes you younger
+than 16. If you believe a child has provided us personal information,
 contact us at **support.zackysstudio@gmail.com** and we will take appropriate steps.
 
 ---
