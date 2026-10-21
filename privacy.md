@@ -280,9 +280,12 @@ advertising.
 
 ## 5. Permissions the App requests
 
-- **Internet** — to sign in, sync your profile and use the online features described above.
-- **Camera and photo library** — to take or select a photo of your food for the scanning
-  feature.
+- **Internet** and **network state** — to sign in, sync your profile, use the online features
+  described above and check whether the device is online.
+- **Camera and photos** — the App does **not** request camera or storage permissions itself. When
+  you choose to take or select a photo of your food, the App opens the system camera or the system
+  photo picker, and receives only the photo you choose.
+- **Google Play Billing** (`com.android.vending.BILLING`) — to offer and manage Premium purchases.
 - **Notifications** — to show you the reminders you schedule (the App asks for this permission
   when you turn on a reminder). Reminders may arrive a few minutes after the chosen time.
 - **Boot completed** — so your scheduled reminders are re-armed after your device restarts.
