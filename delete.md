@@ -5,7 +5,7 @@ permalink: /delete
 
 # Fitcore — Data Deletion / Удаление данных
 
-**Last updated: October 2, 2026**
+**Last updated: October 21, 2026**
 
 This page explains how to delete your account and data in **Fitcore**, a workout and nutrition
 tracking app published by **ZackysStudio**.
@@ -53,6 +53,8 @@ account and the data we control associated with it within **30 days**.
   активности и опыта, цель; статус Premium.
 - Your usage counters (AI scans, chat messages, workout generations).
   / Ваши счётчики использования (ИИ-сканы, сообщения чата, генерации тренировок).
+- Your reports about AI answers.
+  / Ваши жалобы на ответы ИИ.
 - Request-log entries linked to your account (these are also deleted automatically after
   14 days).
   / Записи журнала запросов, связанные с вашим аккаунтом (также удаляются автоматически через
