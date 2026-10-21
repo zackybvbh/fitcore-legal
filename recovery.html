@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FitCore</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f5f7;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f3f5f7;padding:24px 12px;">
+<tr><td align="center">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:480px;background:#ffffff;border-radius:16px;padding:32px 28px;">
+<tr><td style="font-size:22px;font-weight:800;letter-spacing:-0.5px;color:#0b0c0e;padding-bottom:20px;">Fit<span style="color:#00b84f;">Core</span></td></tr>
+<tr><td style="color:#1b1d21;font-size:15px;line-height:1.55;">
+{{ if .Data }}{{ if eq .Data.lang "ru" }}
+<h1 style="font-size:20px;margin:0 0 12px;color:#0b0c0e;">Сброс пароля</h1>
+<p style="margin:0 0 24px;">Мы получили запрос на сброс пароля для вашего аккаунта FitCore. Нажмите кнопку, чтобы придумать новый пароль.</p>
+<p style="margin:0 0 24px;"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#00d95f;color:#04130a;text-decoration:none;font-weight:700;padding:14px 28px;border-radius:12px;">Создать новый пароль</a></p>
+<p style="margin:0 0 24px;padding:12px 14px;background:#f3f5f7;border-radius:10px;font-size:13px;color:#1b1d21;">Откройте это письмо на том телефоне, где установлено приложение FitCore и откуда вы запрашивали сброс: ссылка работает только там.</p>
+<p style="margin:0 0 6px;font-size:13px;color:#5c6270;">Если кнопка не работает, скопируйте эту ссылку в браузер:</p>
+<p style="margin:0 0 24px;font-size:12px;word-break:break-all;"><a href="{{ .ConfirmationURL }}" style="color:#00873a;">{{ .ConfirmationURL }}</a></p>
+<p style="margin:0;font-size:13px;color:#5c6270;">Если вы не запрашивали сброс пароля, просто проигнорируйте это письмо — пароль останется прежним. Ссылка одноразовая.</p>
+{{ else if eq .Data.lang "cs" }}
+<h1 style="font-size:20px;margin:0 0 12px;color:#0b0c0e;">Obnovení hesla</h1>
+<p style="margin:0 0 24px;">Obdrželi jsme žádost o obnovení hesla k vašemu účtu FitCore. Klepnutím na tlačítko vytvoříte nové heslo.</p>
+<p style="margin:0 0 24px;"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#00d95f;color:#04130a;text-decoration:none;font-weight:700;padding:14px 28px;border-radius:12px;">Vytvořit nové heslo</a></p>
+<p style="margin:0 0 24px;padding:12px 14px;background:#f3f5f7;border-radius:10px;font-size:13px;color:#1b1d21;">Otevřete tento e-mail na telefonu, na kterém máte nainstalovanou aplikaci FitCore a ze kterého jste o obnovení požádali: odkaz funguje jen tam.</p>
+<p style="margin:0 0 6px;font-size:13px;color:#5c6270;">Pokud tlačítko nefunguje, zkopírujte tento odkaz do prohlížeče:</p>
+<p style="margin:0 0 24px;font-size:12px;word-break:break-all;"><a href="{{ .ConfirmationURL }}" style="color:#00873a;">{{ .ConfirmationURL }}</a></p>
+<p style="margin:0;font-size:13px;color:#5c6270;">Pokud jste o obnovení hesla nežádali, tento e-mail ignorujte — vaše heslo zůstane beze změny. Odkaz je jednorázový.</p>
+{{ else }}
+<h1 style="font-size:20px;margin:0 0 12px;color:#0b0c0e;">Reset your password</h1>
+<p style="margin:0 0 24px;">We received a request to reset the password for your FitCore account. Tap the button to choose a new password.</p>
+<p style="margin:0 0 24px;"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#00d95f;color:#04130a;text-decoration:none;font-weight:700;padding:14px 28px;border-radius:12px;">Choose a new password</a></p>
+<p style="margin:0 0 24px;padding:12px 14px;background:#f3f5f7;border-radius:10px;font-size:13px;color:#1b1d21;">Open this email on the phone where the FitCore app is installed and where you requested the reset: the link only works there.</p>
+<p style="margin:0 0 6px;font-size:13px;color:#5c6270;">If the button doesn't work, copy this link into your browser:</p>
+<p style="margin:0 0 24px;font-size:12px;word-break:break-all;"><a href="{{ .ConfirmationURL }}" style="color:#00873a;">{{ .ConfirmationURL }}</a></p>
+<p style="margin:0;font-size:13px;color:#5c6270;">If you didn't request a password reset, just ignore this email — your password stays the same. The link can be used once.</p>
+{{ end }}{{ else }}
+<h1 style="font-size:20px;margin:0 0 12px;color:#0b0c0e;">Reset your password</h1>
+<p style="margin:0 0 24px;">We received a request to reset the password for your FitCore account. Tap the button to choose a new password.</p>
+<p style="margin:0 0 24px;"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#00d95f;color:#04130a;text-decoration:none;font-weight:700;padding:14px 28px;border-radius:12px;">Choose a new password</a></p>
+<p style="margin:0 0 24px;padding:12px 14px;background:#f3f5f7;border-radius:10px;font-size:13px;color:#1b1d21;">Open this email on the phone where the FitCore app is installed and where you requested the reset: the link only works there.</p>
+<p style="margin:0 0 6px;font-size:13px;color:#5c6270;">If the button doesn't work, copy this link into your browser:</p>
+<p style="margin:0 0 24px;font-size:12px;word-break:break-all;"><a href="{{ .ConfirmationURL }}" style="color:#00873a;">{{ .ConfirmationURL }}</a></p>
+<p style="margin:0;font-size:13px;color:#5c6270;">If you didn't request a password reset, just ignore this email — your password stays the same. The link can be used once.</p>
+{{ end }}
+</td></tr>
+</table>
+</td></tr>
+</table>
+</body>
+</html>

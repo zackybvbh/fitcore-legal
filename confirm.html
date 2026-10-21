@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FitCore</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f5f7;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f3f5f7;padding:24px 12px;">
+<tr><td align="center">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:480px;background:#ffffff;border-radius:16px;padding:32px 28px;">
+<tr><td style="font-size:22px;font-weight:800;letter-spacing:-0.5px;color:#0b0c0e;padding-bottom:20px;">Fit<span style="color:#00b84f;">Core</span></td></tr>
+<tr><td style="color:#1b1d21;font-size:15px;line-height:1.55;">
+{{ if .Data }}{{ if eq .Data.lang "ru" }}
+<h1 style="font-size:20px;margin:0 0 12px;color:#0b0c0e;">Подтвердите почту</h1>
+<p style="margin:0 0 24px;">Спасибо за регистрацию в FitCore! Нажмите кнопку, чтобы подтвердить почту и завершить создание аккаунта.</p>
+<p style="margin:0 0 24px;"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#00d95f;color:#04130a;text-decoration:none;font-weight:700;padding:14px 28px;border-radius:12px;">Подтвердить почту</a></p>
+<p style="margin:0 0 6px;font-size:13px;color:#5c6270;">Если кнопка не работает, скопируйте эту ссылку в браузер:</p>
+<p style="margin:0 0 24px;font-size:12px;word-break:break-all;"><a href="{{ .ConfirmationURL }}" style="color:#00873a;">{{ .ConfirmationURL }}</a></p>
+<p style="margin:0;font-size:13px;color:#5c6270;">Если вы не создавали аккаунт FitCore, просто проигнорируйте это письмо. Ссылка одноразовая.</p>
+{{ else if eq .Data.lang "cs" }}
+<h1 style="font-size:20px;margin:0 0 12px;color:#0b0c0e;">Potvrďte svůj e-mail</h1>
+<p style="margin:0 0 24px;">Děkujeme za registraci ve FitCore! Klepnutím na tlačítko potvrdíte svůj e-mail a dokončíte vytvoření účtu.</p>
+<p style="margin:0 0 24px;"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#00d95f;color:#04130a;text-decoration:none;font-weight:700;padding:14px 28px;border-radius:12px;">Potvrdit e-mail</a></p>
+<p style="margin:0 0 6px;font-size:13px;color:#5c6270;">Pokud tlačítko nefunguje, zkopírujte tento odkaz do prohlížeče:</p>
+<p style="margin:0 0 24px;font-size:12px;word-break:break-all;"><a href="{{ .ConfirmationURL }}" style="color:#00873a;">{{ .ConfirmationURL }}</a></p>
+<p style="margin:0;font-size:13px;color:#5c6270;">Pokud jste si účet FitCore nevytvářeli, tento e-mail ignorujte. Odkaz je jednorázový.</p>
+{{ else }}
+<h1 style="font-size:20px;margin:0 0 12px;color:#0b0c0e;">Confirm your email</h1>
+<p style="margin:0 0 24px;">Thanks for signing up for FitCore! Tap the button to confirm your email and finish creating your account.</p>
+<p style="margin:0 0 24px;"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#00d95f;color:#04130a;text-decoration:none;font-weight:700;padding:14px 28px;border-radius:12px;">Confirm email</a></p>
+<p style="margin:0 0 6px;font-size:13px;color:#5c6270;">If the button doesn't work, copy this link into your browser:</p>
+<p style="margin:0 0 24px;font-size:12px;word-break:break-all;"><a href="{{ .ConfirmationURL }}" style="color:#00873a;">{{ .ConfirmationURL }}</a></p>
+<p style="margin:0;font-size:13px;color:#5c6270;">If you didn't create a FitCore account, just ignore this email. The link can be used once.</p>
+{{ end }}{{ else }}
+<h1 style="font-size:20px;margin:0 0 12px;color:#0b0c0e;">Confirm your email</h1>
+<p style="margin:0 0 24px;">Thanks for signing up for FitCore! Tap the button to confirm your email and finish creating your account.</p>
+<p style="margin:0 0 24px;"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#00d95f;color:#04130a;text-decoration:none;font-weight:700;padding:14px 28px;border-radius:12px;">Confirm email</a></p>
+<p style="margin:0 0 6px;font-size:13px;color:#5c6270;">If the button doesn't work, copy this link into your browser:</p>
+<p style="margin:0 0 24px;font-size:12px;word-break:break-all;"><a href="{{ .ConfirmationURL }}" style="color:#00873a;">{{ .ConfirmationURL }}</a></p>
+<p style="margin:0;font-size:13px;color:#5c6270;">If you didn't create a FitCore account, just ignore this email. The link can be used once.</p>
+{{ end }}
+</td></tr>
+</table>
+</td></tr>
+</table>
+</body>
+</html>
