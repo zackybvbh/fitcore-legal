@@ -8,4 +8,4 @@ Official legal documents for the **Fitcore** app (workout & nutrition tracker) b
 - [Terms of Use / Условия использования](terms)
 - [Data Deletion / Удаление данных](delete)
 
-Contact / Контакты: **support.zackysstudio@gmail.com**
+Contact / Контакты: **zackysstudio.support@gmail.com**
