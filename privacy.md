@@ -5,7 +5,7 @@ permalink: /privacy
 
 # Fitcore — Privacy Policy / Политика конфиденциальности
 
-**Last updated: October 21, 2026**
+**Last updated: November 4, 2026**
 
 Developer / Разработчик: **ZackysStudio**
 App / Приложение: **Fitcore — workout & nutrition tracker**
@@ -36,6 +36,10 @@ By entering the App (signing in or creating an account) you accept this Policy a
 - If you purchase **Premium**, it is billed through **Google Play / the App Store**, and the
   subscription status is confirmed through **RevenueCat**.
 - Account emails (email confirmation and password reset) are sent through **Resend**.
+- The **barcode scanner** uses your camera: the image is processed on your device and is not
+  saved or uploaded; only the barcode number is sent to **Open Food Facts**.
+- **New passwords are checked against a database of leaked passwords** (Have I Been Pwned): only
+  a partial one-way hash of the password is sent, never the password itself.
 - To keep the free AI-scan limit fair, the App sends a **device identifier** to our server,
   which stores only a one-way hash of it.
 - We do **not** sell your personal information, we do **not** show ads, and the App contains
@@ -60,6 +64,10 @@ By entering the App (signing in or creating an account) you accept this Policy a
 - **Premium** оплачивается через **Google Play / App Store**, статус подписки подтверждает
   **RevenueCat**.
 - Письма подтверждения почты и сброса пароля отправляются через **Resend**.
+- **Сканер штрихкодов** использует камеру: изображение обрабатывается на устройстве, не
+  сохраняется и не отправляется; в **Open Food Facts** уходит только номер штрихкода.
+- **Новые пароли проверяются по базе утёкших паролей** (Have I Been Pwned): отправляется только
+  часть одностороннего хэша пароля, но не сам пароль.
 - Чтобы бесплатный лимит сканов был справедливым, приложение отправляет **идентификатор
   устройства**; сервер хранит только его хэш.
 - Мы **не продаём** ваши данные и **не показываем рекламу**; в приложении нет рекламных,
@@ -85,6 +93,10 @@ By entering the App (signing in or creating an account) you accept this Policy a
   uvedené údaje z profilu přes náš server do **Google Gemini API**.
 - **Premium** se platí přes **Google Play / App Store**, stav předplatného potvrzuje **RevenueCat**.
 - Potvrzovací e-maily a e-maily pro obnovení hesla se odesílají přes **Resend**.
+- **Skener čárových kódů** používá kameru: obraz se zpracuje v zařízení, neukládá se ani
+  neodesílá; do **Open Food Facts** se posílá jen číslo čárového kódu.
+- **Nová hesla se kontrolují v databázi uniklých hesel** (Have I Been Pwned): odesílá se jen část
+  jednosměrného hashe hesla, nikdy samotné heslo.
 - Aby byl bezplatný limit skenů spravedlivý, aplikace posílá **identifikátor zařízení**; server
   ukládá jen jeho hash.
 - Vaše údaje **neprodáváme** a **nezobrazujeme reklamy**; aplikace neobsahuje reklamní, analytické
@@ -172,12 +184,19 @@ submitted content to improve its products and it may be reviewed by people. Plea
 information in photos or chat messages that you do not want processed this way. See:
 https://ai.google.dev/gemini-api/terms
 
-### 2.7 Food databases (Open Food Facts and USDA FoodData Central)
+### 2.7 Food databases and barcode scanner (Open Food Facts and USDA FoodData Central)
 
 When you search for a food by name, the **search text** is sent **directly from your device** to
 **Open Food Facts** (search.openfoodfacts.org) and/or **USDA FoodData Central**
-(api.nal.usda.gov) to find nutrition values. These services receive the search text and your
-**IP address**; they do not receive your account, name or email.
+(api.nal.usda.gov) to find nutrition values. When you scan a barcode, the **barcode number** is
+sent **directly from your device** to **Open Food Facts** (world.openfoodfacts.org); the barcode
+is read on your device and **the camera image is not sent anywhere**. These services receive the
+search text or barcode number and your **IP address**; they do not receive your account, name or
+email.
+
+Products you have looked up are kept in a cache **on your device only** (up to 100 products, for
+up to 30 days) and are set aside with your other local data when you sign in to another account.
+Product data comes from Open Food Facts contributors under the Open Database License (ODbL).
 
 ### 2.8 Subscriptions and purchases (RevenueCat & app store billing)
 
@@ -245,6 +264,17 @@ Reports are visible to the developer and are not shared with other users or prov
 send up to 20 reports per day. Please do not include information in a report that you do not want
 us to see. Reports are kept until you delete your account and are **deleted together with it**.
 
+### 2.16 Password check (Have I Been Pwned)
+
+When you create an account or change your password, our authentication server checks the new
+password against the **Pwned Passwords** service of **Have I Been Pwned**
+(api.pwnedpasswords.com), which lists passwords exposed in known data breaches. Only the **first
+five characters of a one-way hash (SHA-1) of the password** are sent. The password itself, your
+email and any other account data are never sent, and the service cannot tell which password or
+account the request is about. The request is made by our server, so the service sees **our
+server's IP address**, not yours. If the password appears in known breaches, we ask you to
+choose another one. See: https://haveibeenpwned.com/Passwords
+
 ---
 
 ## 3. How we use information
@@ -256,6 +286,7 @@ We (and our providers, for their own described purposes) use the information to:
 - power the photo-based food recognition feature, the AI assistant and AI workout generation;
 - process and validate your Premium subscription;
 - send you account emails (email confirmation and password reset);
+- check new passwords against known data breaches;
 - keep proof that you accepted this Policy and the Terms of Use;
 - review reports you send about AI answers and improve their safety;
 - apply usage limits, keep the service secure, prevent abuse and provide customer support.
@@ -272,7 +303,7 @@ advertising.
   Google's Gemini API. You give it when you accept this Policy and use those features, and you
   can withdraw it at any time by stopping to use the features or by deleting your account.
 - **Legitimate interests** — to keep the service secure, apply usage limits and prevent abuse
-  (technical logs, device identifier), to review reports about AI answers, and to keep proof that you
+  (technical logs, device identifier, checking new passwords against known data breaches), to review reports about AI answers, and to keep proof that you
   accepted these documents.
 - **Legal obligation** — where we must keep or disclose information by law.
 
@@ -282,12 +313,18 @@ advertising.
 
 - **Internet** and **network state** — to sign in, sync your profile, use the online features
   described above and check whether the device is online.
-- **Camera and photos** — the App does **not** request camera or storage permissions itself. When
-  you choose to take or select a photo of your food, the App opens the system camera or the system
-  photo picker, and receives only the photo you choose.
+- **Camera** (`android.permission.CAMERA`) — only for the **barcode scanner**. The camera image is
+  processed on your device to read the barcode; the App does **not** save or upload it, and only
+  the barcode number is used (see section 2.7). The permission is requested when you first open
+  the scanner and is optional: if you decline, you can type the number instead.
+- **Photos** — to analyze a photo of your food, the App opens the system camera or the system
+  photo picker and receives only the photo you choose. The App does not request storage
+  permissions.
 - **Google Play Billing** (`com.android.vending.BILLING`) — to offer and manage Premium purchases.
 - **Notifications** — to show you the reminders you schedule (the App asks for this permission
   when you turn on a reminder). Reminders may arrive a few minutes after the chosen time.
+- **Exact alarms** (`android.permission.SCHEDULE_EXACT_ALARM`) — only so the rest-timer signal
+  arrives on time while the screen is off.
 - **Boot completed** — so your scheduled reminders are re-armed after your device restarts.
 - **Vibration** — for haptic feedback.
 
@@ -305,7 +342,8 @@ We share data only with the providers below, and only as needed to provide the A
 | **RevenueCat** and **Google Play / App Store** | Purchase token, account ID, subscription status | Premium subscriptions |
 | **Resend** | Your email address and the account message (confirmation, password reset) | Account emails |
 | **Cloudflare** | Requests to our server, including IP address | Delivering and protecting our server |
-| **Open Food Facts**, **USDA FoodData Central** | Food search text and IP address (directly from your device) | Nutrition values |
+| **Open Food Facts**, **USDA FoodData Central** | Food search text or barcode number, and IP address (directly from your device) | Nutrition values |
+| **Have I Been Pwned** (Pwned Passwords) | First five characters of a one-way hash of a new password, and our server's IP address | Reject passwords from known data breaches |
 
 Our database and backend run on infrastructure that we operate directly rather than on a
 third-party cloud database provider. We do not use advertising or analytics SDKs.
