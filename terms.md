@@ -5,7 +5,7 @@ permalink: /terms
 
 # Fitcore — Terms of Use / Условия использования
 
-**Last updated: October 21, 2026**
+**Last updated: November 4, 2026**
 
 Developer / Разработчик: **ZackysStudio**
 App / Приложение: **Fitcore — workout & nutrition tracker**
@@ -83,6 +83,10 @@ The App's workout programs, food recognition results, and AI assistant responses
 generated automatically and **may be inaccurate or incomplete**. We do not guarantee the
 accuracy of calorie estimates, macro breakdowns, or any other AI-generated output, and you
 should use your own judgment before relying on it.
+
+Product and nutrition data found through food search or the barcode scanner comes from public
+databases (Open Food Facts and USDA FoodData Central), partly contributed by volunteers, and may
+be inaccurate or out of date.
 
 If an AI answer is harmful, offensive or wrong, please report it with the flag button next to
 the answer. We use these reports to review and improve the safety of AI-generated content.
