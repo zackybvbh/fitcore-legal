@@ -31,11 +31,11 @@ The account and its data are deleted at once and cannot be restored.
 
 ### Option 2 — by email / Вариант 2 — по почте
 
-If you cannot open the app, send a request to **support.zackysstudio@gmail.com** with the
+If you cannot open the app, send a request to **zackysstudio.support@gmail.com** with the
 subject "Data deletion", from the email address linked to your account, and we will delete your
 account and the data we control associated with it within **30 days**.
 
-**Русский:** если вы не можете открыть приложение, напишите на **support.zackysstudio@gmail.com**
+**Русский:** если вы не можете открыть приложение, напишите на **zackysstudio.support@gmail.com**
 с темой «Data deletion» с адреса, привязанного к вашему аккаунту, — мы удалим ваш аккаунт и
 связанные с ним данные, которыми мы управляем, в течение **30 дней**.
 
@@ -117,4 +117,4 @@ Facts и USDA FoodData Central (поиск продуктов), а также Go
 
 ---
 
-Contact / Контакты: **support.zackysstudio@gmail.com**
+Contact / Контакты: **zackysstudio.support@gmail.com**
