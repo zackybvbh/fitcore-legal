@@ -5,7 +5,7 @@ permalink: /delete
 
 # Fitcore — Data Deletion / Удаление данных
 
-**Last updated: October 21, 2026**
+**Last updated: November 4, 2026**
 
 This page explains how to delete your account and data in **Fitcore**, a workout and nutrition
 tracking app published by **ZackysStudio**.
@@ -84,10 +84,10 @@ account and the data we control associated with it within **30 days**.
   Google Play or the App Store.
   / Данные, которые мы обязаны хранить по закону, например история платежей/подписки,
   обрабатываемая Google Play или App Store.
-- Deleted data may remain for a short time in routine technical backups of our server until they
-  are overwritten.
-  / Удалённые данные могут какое-то время оставаться в обычных технических резервных копиях
-  сервера, пока они не будут перезаписаны.
+- Deleted data may remain in routine technical backups of our server for up to **14 days**, until
+  they are overwritten.
+  / Удалённые данные могут оставаться в обычных технических резервных копиях сервера до **14
+  дней**, пока они не будут перезаписаны.
 
 ---
 
@@ -107,12 +107,12 @@ App Store. Отмените её отдельно в настройках ваш
 
 Some data is processed by providers under their own policies and is not deleted by us: Google
 (Gemini API, Google Sign-In, Google Fonts), Resend (email delivery), Cloudflare, Open Food Facts
-and USDA FoodData Central (food searches), and Google Play / App Store. See our
+and USDA FoodData Central (food searches and barcodes), Have I Been Pwned (password leak check, partial hash only), and Google Play / App Store. See our
 [Privacy Policy](privacy).
 
 / Часть данных обрабатывают поставщики по собственным политикам, и мы их не удаляем: Google
 (Gemini API, вход через Google, Google Fonts), Resend (доставка писем), Cloudflare, Open Food
-Facts и USDA FoodData Central (поиск продуктов), а также Google Play / App Store. Подробнее — в
+Facts и USDA FoodData Central (поиск продуктов и штрихкоды), Have I Been Pwned (проверка пароля по утечкам, только часть хэша), а также Google Play / App Store. Подробнее — в
 нашей [Политике конфиденциальности](privacy).
 
 ---
