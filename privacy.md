@@ -322,7 +322,7 @@ We keep your account and profile data while your account is active.
 **You can delete your account yourself in the App:** open the **Profile** tab, scroll to the
 bottom and tap **Delete account**, then type the confirmation word and confirm. Deletion is
 immediate. You can also request deletion by email — see our
-[Data Deletion page](delete) or write to **support.zackysstudio@gmail.com**.
+[Data Deletion page](delete) or write to **zackysstudio.support@gmail.com**.
 
 When your account is deleted, we remove: your sign-in account and sessions, your profile and
 subscription status, your usage counters, the request-log entries linked to your account, your
@@ -367,7 +367,7 @@ The App is intended for a **general audience and is not directed to children** u
 of 16 (or the applicable age in your jurisdiction). We do not knowingly collect personal
 information from children. The App does not let you enter a date of birth that makes you younger
 than 16. If you believe a child has provided us personal information,
-contact us at **support.zackysstudio@gmail.com** and we will take appropriate steps.
+contact us at **zackysstudio.support@gmail.com** and we will take appropriate steps.
 
 ---
 
@@ -389,5 +389,5 @@ the next time you sign in.
 
 ---
 
-## 13. Contact: zackysstudio.support@gmail.com
-Email: **support.zackysstudio@gmail.com**
+## 13. Contact
+Email: **zackysstudio.support@gmail.com**
