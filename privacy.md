@@ -9,7 +9,7 @@ permalink: /privacy
 
 Developer / Разработчик: **ZackysStudio**
 App / Приложение: **Fitcore — workout & nutrition tracker**
-Contact / Контакты: **support.zackysstudio@gmail.com**
+Contact / Контакты: **zackysstudio.support@gmail.com**
 
 This Privacy Policy explains how **Fitcore** ("the App", "we", "us"), published by
 **ZackysStudio**, handles information when you use the App. The App is a workout planning,
@@ -348,7 +348,7 @@ Depending on where you live (for example under the EU/UK GDPR or the CCPA), you 
 right to access, correct, delete, or restrict processing of your personal data, to object to
 certain processing, to withdraw consent, or to receive your data in a portable format. You can
 delete your account in the App (section 7). To exercise other rights, contact us at
-**support.zackysstudio@gmail.com**. You also have the right to complain to your data-protection
+**zackysstudio.support@gmail.com**. You also have the right to complain to your data-protection
 authority (in the Czech Republic: the Office for Personal Data Protection, https://www.uoou.gov.cz).
 
 ---
@@ -389,7 +389,5 @@ the next time you sign in.
 
 ---
 
-## 13. Contact
-
-**ZackysStudio**
+## 13. Contact: zackysstudio.support@gmail.com
 Email: **support.zackysstudio@gmail.com**
