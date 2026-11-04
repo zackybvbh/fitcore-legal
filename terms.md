@@ -9,7 +9,7 @@ permalink: /terms
 
 Developer / Разработчик: **ZackysStudio**
 App / Приложение: **Fitcore — workout & nutrition tracker**
-Contact / Контакты: **support.zackysstudio@gmail.com**
+Contact / Контакты: **zackysstudio.support@gmail.com**
 
 These Terms of Use ("Terms") govern your use of the mobile application **Fitcore** ("the
 App"), provided by **ZackysStudio** ("we", "us"). By downloading, installing, or using the
@@ -168,4 +168,4 @@ residence apply.
 ## 14. Contact
 
 **ZackysStudio**
-Email: **support.zackysstudio@gmail.com**
+Email: **zackysstudio.support@gmail.com**
